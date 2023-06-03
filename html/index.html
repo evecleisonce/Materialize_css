@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+        <title>Venda de carros</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    </head>
+    <body>
+        <nav class="nav-extended card-panel black">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo"><img id="logo" src="../img/logo.png" alt="Logo da Empresa de Carros" ></a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sobre Nós</a></li>
+                <li><a href="badges.html">Carros Novos</a></li>
+                <li><a href="collapsible.html">Carros Usados</a></li>
+              </ul>
+              <ul class="side-nav" id="mobile-demo">
+                <li><a href="sass.html">Sobre Nós</a></li>
+                <li><a href="badges.html">Carros Novos</a></li>
+                <li><a href="collapsible.html">Carros Usados</a></li>
+              </ul>
+            </div>
+            <div class="nav-content">
+              <ul class="tabs tabs-transparent">
+                <li class="tab"><a href="#test1">Home</a></li>
+                <li class="tab"><a class="active" href="#test2">Produtos</a></li>
+                <li class="tab disabled"><a href="#test3">Downloads</a></li>
+                <li class="tab"><a href="#test4">Comprar Agora</a></li>
+                <li class="tab"><a href="#test4">Suporte</a></li>
+              </ul>
+
+              <form>
+                <div class="input-field">
+                  <input id="search" type="search" required>
+                  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                  <i class="material-icons">close</i>
+                </div>
+
+                <button class="btn waves-effect waves-light" type="submit" name="action">Buscar</button>
+
+              </form>
+            </div>
+        </nav>
+
+        <div class="div3">
+            <img src="../img/pagina_inicial.png" alt="Imagem de capa da página">
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6">
+              <div id="subdivisao_verde" class="card white">
+                <div class="card-content black-text">
+                    <span class="card-title">Mobilidade e Conveniência</span>
+                    <p>
+                       Comprar um carro é uma das melhores maneiras de garantir sua mobilidade e conveniência. Você pode ir
+                       aonde quiser, quando quiser, sem depender de horários de transporte público ou roteiros pré-definidos.
+                       Além disso, ter um carro pode ajudá-lo a economizar tempo e esforço em suas atividades diárias, como
+                       ir ao trabalho, fazer compras e levar seus filhos à escola.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div id="subdivisao_azul" class="card white">
+                  <div class="card-content black-text">
+                    <span class="card-title">Liberdade e Independência</span>
+                    <p>
+                        Comprar um carro também pode lhe dar uma sensação de liberdade e independência que não é possível com
+                        outros meios de transporte. Você tem o controle total do veículo e pode escolher o destino, a velocidade
+                        e o caminho que desejar. Além disso, você não precisa se preocupar com atrasos, interrupções ou
+                        inconvenientes que podem ocorrer ao usar o transporte público ou outras opções.
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div id="subdivisao_amarelo" class="card white">
+                  <div class="card-content black-text">
+                    <span class="card-title">Investimento e Valorização</span>
+                    <p>
+                        Comprar um carro pode ser uma forma inteligente de investir dinheiro. Embora os carros possam perder
+                        valor ao longo do tempo, um carro bem cuidado pode manter seu valor e até mesmo se valorizar em alguns
+                        casos. Além disso, ter um carro pode ajudá-lo a economizar dinheiro em longo prazo em comparação aos
+                        custos contínuos de transporte público ou táxi. E, é claro, um carro pode ser um bem valioso e útil
+                        que pode lhe trazer muitos anos de satisfação e utilidade.
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+          
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="Nome" id="first_name" type="text" class="validate">
+                  <label class="active" for="first_name">Nome</label>
+                </div>
+                <div class="input-field col s6">
+                  <input placeholder="Sobrenome" id="last_name" type="text" class="validate">
+                  <label class="active" for="last_name">Sobrenome</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input placeholder="Email" id="email" type="email" class="validate">
+                  <label class="active" for="email">Email</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea placeholder="Comentários" id="textarea1" class="materialize-textarea"></textarea>
+                  <label class="active" for="textarea1">Deixe aqui seu comentário</label>
+                </div>
+              </div>
+
+              <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+              
+            </form>
+        </div>
+
+        
+
+        
+    </body>               
+</html>
